@@ -1,10 +1,10 @@
 # True Color
 
-This project was made for a coding challenge to create a horoscope. In dedication to those who do not know their exact birth dates, or wish not to celebrate that date, I created the application dedicated to producing a hex color based on the user's chosen date. Whether that date be their birthday or otherwise is up to their discretion. Hopefully it becomes one of their favored colors.
+This application was made for a coding challenge to create a horoscope. In dedication to those who do not know their exact birth dates, or wish not to celebrate that date, I created the application dedicated to producing a hex color based on the user's chosen date. Whether that date be their birthday or otherwise is up to their discretion. Hopefully it becomes one of their favored colors.
 
 ## Current Hosting
 
-To see deployed site, visit [The Calculator here](https://jpmbvistro-true-color.netlify.app)
+To see deployed site, visit [The Application here](https://jpmbvistro-true-color.netlify.app)
 See my other deployed projects there as well!
 
 ## Work With Me
