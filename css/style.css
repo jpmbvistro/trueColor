@@ -1,0 +1,134 @@
+/* Shay Howe */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*for grouping floating elements*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #353839;
+  background-color: white;
+}
+
+h3 {
+  height: 3rem;
+  font-size: 3rem;
+}
+
+header {
+  margin: 1rem auto;
+  font-size: 3rem;
+}
+
+.display {
+  font-size: 5rem;
+}
+
+.inputs {
+  font-size: 2rem;
+  align-items: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+button {
+  border: .5rem solid darkgrey;
+  border-radius: 1rem;
+  background-color: grey;
+  color: white;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+}
+
+button + button{
+  margin-left: 1rem;
+}
+
+header {
+
+}
+
+input {
+  border-radius: 20px;
+  border: .25rem solid rgba(150, 150, 150, 0.3);
+  background-color: #ffd1a3;
+  padding: 2rem;
+  font-size: 3rem;
+  margin-right: .25rem;
+}
+
+input + input {
+  margin-left: 1rem;
+}
+
+footer {
+
+}
+
+.buttons {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 5vw auto;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 0 1rem .5rem white;
+  max-width: 40rem;
+}
+
+.readable-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media only screen and (max-width: 700px) {
+  section {
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024) {
+  section {
+    }
+}
