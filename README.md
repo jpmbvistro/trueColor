@@ -13,7 +13,7 @@ If you would like to work with me, feel free to contact me through [my website](
 
 ## Screenshots
 
-![Application Screenshot](screenshots/full-screenshot.png)
+![Application Screenshot](screenshot/full-screenshot.png)
 
 ### Contributions
 At this moment, I am currently not accepting contributions for this project.
